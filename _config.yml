@@ -1,0 +1,6 @@
+title: "My Notebook Dashboard"
+description: "Hierarchical site generated from Jupyter Notebooks"
+theme: jekyll-theme-minimal
+baseurl: "/notebooks_gh_pages"
+url: "https://<your-github-username>.github.io"
+markdown: kramdown

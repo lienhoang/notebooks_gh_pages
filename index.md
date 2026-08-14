@@ -1,6 +1,11 @@
+---
+layout: default
+title: Home
+---
 
-# Project Update
-This page was auto-generated on today's run.
+# Welcome to My Project Dashboard
 
-- **Status:** Complete
-- **Accuracy:** 98%
+This is the main landing page. Use the links below to navigate the site hierarchy:
+
+* [About This Project](about.md)
+* [Documentation Center](docs/index.md)
