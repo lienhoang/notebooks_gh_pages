@@ -7,4 +7,4 @@ title: About
 
 This section explains the scope of the project. 
 
-* [Return to Home](../index.md)
+* [Return to Home](index.md)
