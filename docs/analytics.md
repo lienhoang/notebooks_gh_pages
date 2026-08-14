@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Analytics Report
+parent: Documentation
+nav_order: 1
 ---
 
 # Notebook Analytics Report

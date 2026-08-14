@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Documentation Hub
+title: Documentation
+nav_order: 3
 ---
 
 # Documentation Hub
 
 Welcome to the data and notebook documentation section. 
 
-### Available Reports
-* [Notebook Analytics Report](analytics.md)
-
-[← Back to Main Home](../index.md)
