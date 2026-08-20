@@ -1,4 +1,4 @@
-title: "My Notebook Dashboard"
+title: "Linked Data QC Pages"
 description: "Hierarchical site generated from Jupyter Notebooks"
 remote_theme: just-the-docs/just-the-docs
 baseurl: "/notebooks_gh_pages"
