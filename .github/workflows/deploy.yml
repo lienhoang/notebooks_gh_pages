@@ -1,8 +1,8 @@
-name: Deploy static content to Pages
+name: Deploy Markdown content to Pages
 
 on:
   push:
-    branches: ["main"] # Change to "master" if your default branch is master
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -23,15 +23,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 1. Set up Jekyll build environment
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
+      # 2. Build the Markdown files inside your custom folder into HTML
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: './site'
+          destination: './_site'
+
+      # 3. Upload the built HTML files
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          # Tell GitHub to deploy ONLY this specific folder
-          path: './site' 
 
+      # 4. Deploy to the web
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
