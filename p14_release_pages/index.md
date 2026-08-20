@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Documentation
-nav_order: 3
+title: P14 Release QC Pages
+nav_order: 2
 ---
 
-# Documentation Hub
+# P14 Release QC Pages
 
 Welcome to the data and notebook documentation section. 
 

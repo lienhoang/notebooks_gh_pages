@@ -4,6 +4,6 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to My Project Dashboard
+# Linked Data QC Pages
 
 This is the main landing page.
